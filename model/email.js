@@ -34,5 +34,5 @@ const EmailSchema = mongoose.Schema({
         required:true
     }
 })
-const email=mongoose.model('emailed',EmailSchema)
+const email=mongoose.model('emails',EmailSchema)
 export default email;

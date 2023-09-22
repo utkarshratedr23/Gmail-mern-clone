@@ -4,7 +4,7 @@ const routes=express.Router();
 
 routes.post('/save',saveSentEmails)
 routes.post('/save-draft',saveSentEmails)
-routes.get('/emailed/:type',getEmails)
+routes.get('/emails/:types',getEmails)
 routes.post('/starred', toggleStarredEmail);
 routes.delete('/delete', deleteEmails);
 routes.post('/bin',moveEmailsToBin);
