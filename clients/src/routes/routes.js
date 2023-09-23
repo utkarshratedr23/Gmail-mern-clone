@@ -8,7 +8,7 @@ const routes={
         element:Main
     },
     emails:{
-        path:'/emails',
+        path:'/email',
         element:Emails
     },
     view:{
